@@ -1,0 +1,121 @@
+{
+  "videos": [
+    {
+      "id": "1",
+      "title": "Let It Be",
+      "artist": "The Beatles",
+      "thumbnail": "https://img.youtube.com/vi/QDYfEBY9NM4/0.jpg",
+      "description": "The Beatles performing their classic hit 'Let It Be' in a live concert.",
+      "url": "https://www.youtube.com/watch?v=QDYfEBY9NM4",
+      "genre": "rock"
+    },
+    {
+      "id": "2",
+      "title": "Stairway to Heaven",
+      "artist": "Led Zeppelin",
+      "thumbnail": "https://img.youtube.com/vi/QkF3oxziUI4/0.jpg",
+      "description": "Led Zeppelin's iconic song 'Stairway to Heaven' from their untitled fourth album.",
+      "url": "https://www.youtube.com/watch?v=QkF3oxziUI4",
+      "genre": "rock"
+    },
+    {
+      "id": "3",
+      "title": "Light My Fire",
+      "artist": "The Doors",
+      "thumbnail": "https://lovemusic.sateccons.com/wp-content/uploads/2024/05/pic98pic98pic8989-2024-05-16T142909.923.jpg",
+      "description": "The Doors performing 'Light My Fire' during a live session.",
+      "url": "https://www.youtube.com/watch?v=8X2QaEKj4Do",
+      "genre": "rock"
+    },
+    {
+      "id": "4",
+      "title": "Symphony No.5",
+      "artist": "Ludwig van Beethoven",
+      "thumbnail": "https://i.guim.co.uk/img/media/5e00721de904f9d1a2f1890d197a3240a889c28b/0_421_3811_2285/master/3811.jpg?width=465&dpr=1&s=none&crop=none",
+      "description": "Beethoven's masterpiece 'Symphony No.5' performed by a renowned orchestra.",
+      "url": "https://www.youtube.com/watch?v=W-fwisMxN4k",
+      "genre": "clasica"
+    },
+    {
+      "id": "5",
+      "title": "Eine kleine Nachtmusik",
+      "artist": "Wolfgang Amadeus Mozart",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgDeL8Lf3A2LQp3iT-sv8q7iVNyOB_WPEZmIUCv4ZYccZWrN3QEZntWLG5tj1VhD2D2p4&usqp=CAU",
+      "description": "Mozart's charming serenade 'Eine kleine Nachtmusik' performed live.",
+      "url": "https://www.youtube.com/watch?v=dMWBI_P3GJk",
+      "genre": "clasica"
+    },
+    {
+      "id": "6",
+      "title": "Toccata and Fugue in D Minor",
+      "artist": "Johann Sebastian Bach",
+      "thumbnail": "https://img.youtube.com/vi/ho9rZjlsyYY/0.jpg",
+      "description": "Bach's famous organ composition 'Toccata and Fugue in D Minor' performed by a virtuoso organist.",
+      "url": "https://www.youtube.com/watch?v=ho9rZjlsyYY",
+      "genre": "clasica"
+    },
+    {
+      "id": "7",
+      "title": "Thriller",
+      "artist": "Michael Jackson",
+      "thumbnail": "https://img.youtube.com/vi/sOnqjkJTMaA/0.jpg",
+      "description": "Michael Jackson's legendary music video for 'Thriller'.",
+      "url": "https://www.youtube.com/watch?v=sOnqjkJTMaA",
+      "genre": "pop"
+    },
+    {
+      "id": "8",
+      "title": "Like a Virgin",
+      "artist": "Madonna",
+      "thumbnail": "https://i8.amplience.net/i/naras/Madonna-1984-GettyImages-1149250768.jpg",
+      "description": "Madonna's iconic song 'Like a Virgin' from her album 'Like a Virgin'.",
+      "url": "https://www.youtube.com/watch?v=Ec8ORhYG2_c",
+      "genre": "pop"
+    },
+    {
+      "id": "9",
+      "title": "Purple Rain",
+      "artist": "Prince",
+      "thumbnail": "https://artfulliving.com/wp-content/uploads/2021/03/Artful-Living-Prince-Cloud-Guitar-Origins-FEATURE.jpg",
+      "description": "Prince performing his classic hit 'Purple Rain' live on stage.",
+      "url": "https://www.youtube.com/watch?v=6OlMS7Y1svk",
+      "genre": "pop"
+    },
+    {
+      "id": "10",
+      "title": "Blitzkrieg Bop",
+      "artist": "Ramones",
+      "thumbnail": "https://ethic.es/wp-content/uploads/2022/04/Canciones-Ramones-1280x640-1.jpeg",
+      "description": "The Ramones performing their high-energy punk anthem 'Blitzkrieg Bop'.",
+      "url": "https://www.youtube.com/watch?v=XN5t0v-RCAU",
+      "genre": "punk"
+    },
+    {
+      "id": "11",
+      "title": "Anarchy In The UK",
+      "artist": "Sex Pistols",
+      "thumbnail": "https://i.guim.co.uk/img/media/8ba98f6a37fc427126f58fb090f438ba3dc0f04b/0_114_3619_2173/master/3619.jpg?width=465&dpr=1&s=none&crop=none",
+      "description": "Sex Pistols' rebellious track 'Anarchy in the UK' from their debut album.",
+      "url": "https://www.youtube.com/watch?v=q31WY0Aobro",
+      "genre": "punk"
+    },
+    {
+      "id": "12",
+      "title": "London Calling",
+      "artist": "The Clash",
+      "thumbnail": "https://i.dailymail.co.uk/1s/2019/03/21/16/11277518-0-image-a-10_1553185118062.jpg",
+      "description": "The Clash delivering their powerful song 'London Calling'.",
+      "url": "https://www.youtube.com/watch?v=N4rZ7g1X65s",
+      "genre": "punk"
+    },
+    {
+      "id": "dca3",
+      "title": "Wake me up",
+      "genre": "edm",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXL7tLFc8HxXtf7BO4ONehTLv14Z8KSZAE1A&s",
+      "url": "https://www.youtube.com/watch?v=IcrbM1l_BoI",
+      "description": "Musica electronica moderna",
+      "artist": "Avicii"
+    }
+  ]
+}
