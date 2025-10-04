@@ -13,6 +13,7 @@ import {
   Button,
   Grid,
 } from '@mui/material';
+import { ENDPOINTS } from '../config/api';
 
 const NuevoVideo = () => {
   const [title, setTitle] = useState('');
@@ -41,7 +42,7 @@ const NuevoVideo = () => {
     };
 
     try {
-      const response = await fetch('https://aluraflix-api-2qid.onrender.com/videos', { // URL actualizada
+      const response = await fetch(ENDPOINTS.videos, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
