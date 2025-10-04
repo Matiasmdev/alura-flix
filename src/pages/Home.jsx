@@ -4,7 +4,6 @@ import { useState, useEffect } from 'react';
 import { Box, Grid, Container, Chip } from '@mui/material';
 import VideoCard from '../components/VideoCard/VideoCard';
 import Banner from '../components/Banner/Banner';
-import { ENDPOINTS } from '../config/api';
 
 const Home = () => {
   const [videos, setVideos] = useState([]);
@@ -13,10 +12,10 @@ const Home = () => {
     fetchVideos();
   }, []);
 
-  // Función para obtener videos desde la API
+  // Función para obtener videos desde JSON Server
   const fetchVideos = async () => {
     try {
-      const response = await fetch(ENDPOINTS.videos);
+      const response = await fetch('https://aluraflix-api-2qid.onrender.com/videos');
       if (!response.ok) {
         throw new Error('Error al obtener los videos.');
       }
@@ -44,7 +43,7 @@ const Home = () => {
   // Función para eliminar un video
   const handleDelete = async (id) => {
     try {
-      const response = await fetch(ENDPOINTS.videoById(id), {
+      const response = await fetch(`https://aluraflix-api-2qid.onrender.com/videos/${id}`, {
         method: 'DELETE',
       });
 
@@ -64,7 +63,7 @@ const Home = () => {
   // Función para actualizar un video
   const handleUpdate = async (updatedVideo) => {
     try {
-      const response = await fetch(ENDPOINTS.videoById(updatedVideo.id), {
+      const response = await fetch(`https://aluraflix-api-2qid.onrender.com/videos/${updatedVideo.id}`, {
         method: 'PUT',
         headers: {
           'Content-Type': 'application/json',

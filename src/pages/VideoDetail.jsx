@@ -3,7 +3,6 @@
 import { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import styled from 'styled-components';
-import { ENDPOINTS } from '../config/api';
 
 const DetailContainer = styled.div`
   padding: 20px;
@@ -37,7 +36,7 @@ const VideoDetail = () => {
   useEffect(() => {
     const fetchVideo = async () => {
       try {
-        const response = await fetch(ENDPOINTS.videoById(id));
+        const response = await fetch(`https://aluraflix-api-2qid.onrender.com/videos/${id}`);
         if (!response.ok) {
           throw new Error('Video no encontrado');
         }

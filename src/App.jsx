@@ -9,11 +9,9 @@ import Footer from './components/Footer/Footer';
 import { startKeepAlive, stopKeepAlive } from './services/keepAlive';
 
 const App = () => {
-  // Iniciar el servicio de keep-alive cuando la app se monta
+  // KeepAlive como respaldo de UptimeRobot
   useEffect(() => {
     startKeepAlive();
-
-    // Limpiar el intervalo cuando la app se desmonta
     return () => {
       stopKeepAlive();
     };
